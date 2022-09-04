@@ -1,0 +1,14 @@
+{
+	"license_details":
+		{
+			"name":"Advanced",
+			"price":0,
+			"sensors":50,
+			"data_retention_period":30,
+			"requests":1000,
+			"time_period":366,
+			"start_date":"March 20, 2014",
+			"end_date":"March 21, 2015",
+			"description":"Advanced license"
+		}
+}

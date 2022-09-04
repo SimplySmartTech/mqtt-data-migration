@@ -1,0 +1,15 @@
+{
+	"success":true,
+	"auth_token":"wOzV_s3ZIheqrkCcKHTPxQ",
+	"email":"test@altizon.com",
+	"role":"admin",
+	"time_zone":"Mumbai",
+	"organisation":
+		{
+			"name":null,"organisation_key":"f58155467d2b6784516a59ade6t6715fee567132",
+			"license":
+			{
+				"license_key":"61572fd9137ad5b95c33444tf98e662762416812"
+			}
+		}
+}

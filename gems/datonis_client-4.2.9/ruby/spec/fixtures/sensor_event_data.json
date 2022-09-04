@@ -1,0 +1,13 @@
+{
+	"summary_result":
+		{
+			"count":0,"sum":0.0,"min":null,"max":null,"avg":0.0,"idle_time_mins":60,"total_time_mins":60
+		},
+	"sensor_wise_result":
+		{
+			"4fa2t52f2ecffec234b5137c23681165852ft99a":{"count":0,"sum":0.0,"min":null,"max":null,"avg":0.0,"idle_time_mins":15,"total_time_mins":15},
+			"4fa2t52f2ecffec234b5137c23681165852ft99b":{"count":0,"sum":0.0,"min":null,"max":null,"avg":0.0,"idle_time_mins":15,"total_time_mins":15},
+			"4fa2t52f2ecffec234b5137c23681165852ft99c":{"count":0,"sum":0.0,"min":null,"max":null,"avg":0.0,"idle_time_mins":15,"total_time_mins":15},
+			"4fa2t52f2ecffec234b5137c23681165852ft99d":{"count":0,"sum":0.0,"min":null,"max":null,"avg":0.0,"idle_time_mins":15,"total_time_mins":15}
+		}
+}

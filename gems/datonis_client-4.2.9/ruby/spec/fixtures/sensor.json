@@ -1,0 +1,17 @@
+{
+	"success": true,
+	"sensor":
+	{
+	"description":null,
+	"sensor_key":"afa2t52f2ecffec234b5137c23681165852ft99b",
+	"last_beat":"2014-08-19T00:04:33.256Z",
+	"meta_data":{"type":"object","additionalProperties":false,
+	"properties":{"value":{"type":"number"}}},
+	"name":"test sensor 1",
+	"registration_timestamp":"2014-08-14T06:10:27Z",
+	"state":"registered",
+	"tags_array":["machine2,a,b"],
+	"unit_of_measure":null,
+	"type": "Pressure"
+}
+}

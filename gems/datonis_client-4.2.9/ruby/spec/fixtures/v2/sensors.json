@@ -1,0 +1,9 @@
+{
+	"total_count":2,
+	"page":1,
+	"sensors":
+	[
+	  {"coordinates":null,"description":null,"sensor_key":"3dd8b7abdfbe162ff3621e1246b192d4tt6fd87e","type":"temp_sensor","last_beat":null,"meta_data":{"type":"object","additionalProperties":false,"properties":{"value":{"type":"number"}}},"name":"Sensor 1","state":null,"tags_array":["fugit","voluptatem","eum"],"traits":{},"unit_of_measure":null,"alive":false,"tags":"fugit,voluptatem,eum","last_event":null},
+	  {"coordinates":null,"description":null,"sensor_key":"dce19926d6833335ctcf55e99d69541cc62t429f","type":"temp_sensor","last_beat":null,"meta_data":{"type":"object","additionalProperties":false,"properties":{"value":{"type":"number"}}},"name":"Sensor 2","state":null,"tags_array":["dignissimos","beatae","quidem"],"traits":{},"unit_of_measure":null,"alive":false,"tags":"dignissimos,beatae,quidem","last_event":null}
+	]
+}

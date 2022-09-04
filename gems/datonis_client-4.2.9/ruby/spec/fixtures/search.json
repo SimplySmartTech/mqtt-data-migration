@@ -1,0 +1,13 @@
+
+[
+{
+	"description":"testapi-update",
+	"sensor_key":"d77t55tfc41a9811789e77fbcae2e7174ftd4ca5",
+	"last_beat":null,
+	"meta_data":null,
+	"name":"sensor-test",
+	"state":null,
+	"tags_array":["test","sensor"],
+	"unit_of_measure":null
+}
+]
