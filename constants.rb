@@ -17,7 +17,7 @@ THING_KEYS = {
 }
 
 
-FIELDS = ["value", "pulsel", "pulseh", "valvestatus"]
+FIELDS = ["pulsel", "pulseh", "valvestatus", "meterstatus"]
 
 LAST_SYNC_AT = Time.now - 10*60
 
