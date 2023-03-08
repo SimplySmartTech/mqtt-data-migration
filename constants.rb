@@ -13,13 +13,35 @@ THING_KEYS = {
             "bf38e652ec", 
             "d4c3da6ab7", 
             "t17a695c27"
+          ],
+  ace:
+          [
+            "9dtce1fb35",
+            "e4ef9bab1f",
+            "59d6d32bt7",
+            "28b4t62tdc",
+            "392c8tc8at",
+            "2ca1137186",
+            "d7tt8916eb",
+            "1b7a89cf83",
+            "5feef431a2",
+            "135fbc7dea",
+            "ba2b95d3fc",
+            "1898ce92bd",
+            "d6ea546d86",
+            "5ff193ec97",
+            "fae9d581t5",
+            "t5965697d9",
+            "f2f6a1f37f",
+            "3a36t42a87",
+            "157823fcd6"
           ]
 }
 
 
 FIELDS = ["pulsel", "pulseh", "valvestatus", "meterstatus"]
 
-LAST_SYNC_AT = Time.now - 10*60
+LAST_SYNC_AT = Time.now - 10*60*23
 
 SENSOR_CONFIG = {
     url: "https://api.datonis.io",
@@ -32,5 +54,6 @@ SENSOR_CONFIG = {
   }
 
 ACCESS_KEYS = {
-  padmaj: "537t8aca797b5a4dfetcb812a6bb32dd48a337t3"
+  padmaj: "537t8aca797b5a4dfetcb812a6bb32dd48a337t3",
+  ace: "fd5d79b4e919ad44d33cb46f9f615e736516f26d"
 }
