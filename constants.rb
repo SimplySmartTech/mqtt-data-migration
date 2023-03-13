@@ -1,6 +1,6 @@
 require 'time'
 THING_KEYS = {
-  padmaj: [ 
+  'padmaj'=> [ 
             "41t547b49t", 
             "48efea8t89", 
             "53496a77e3", 
@@ -14,34 +14,14 @@ THING_KEYS = {
             "d4c3da6ab7", 
             "t17a695c27"
           ],
-  ace:
-          [
-            "9dtce1fb35",
-            "e4ef9bab1f",
-            "59d6d32bt7",
-            "28b4t62tdc",
-            "392c8tc8at",
-            "2ca1137186",
-            "d7tt8916eb",
-            "1b7a89cf83",
-            "5feef431a2",
-            "135fbc7dea",
-            "ba2b95d3fc",
-            "1898ce92bd",
-            "d6ea546d86",
-            "5ff193ec97",
-            "fae9d581t5",
-            "t5965697d9",
-            "f2f6a1f37f",
-            "3a36t42a87",
-            "157823fcd6"
-          ]
+  'ambiance-woods'=> [
+    "e459e6ff8c", "21783eaa69", "4ca248a488", "17a2dfdt18", "2dbbe48afc", "f1cba6a759", "775376f356", "4ebfbetb9t", "a863622ed2", "b8f4776e96", "tta27198f2", "38a82cdct5", "635879646a", "ccb4ffdec9", "5a6cc1b96f", "42t3t1b56t", "7t4ft6ef85", "241bt7b686", "11a8tt4cf4", "a7ef9241ct", "bd1be12ef8", "847fad33t1", "25ed9bc295", "96bcc3c6d7", "5fde21bt28", "817282fcc9", "dat2f7c6fa", "btdft777db", "993b6cfd24", "5e332ctat3", "ef6f2deac5", "b4794283tb", "bt7e22c2bt", "7c3f4e12t9", "9bct76td12", "2c9673c5e8", "29f5316bf9"]
 }
 
 
 FIELDS = ["pulsel", "pulseh", "valvestatus", "meterstatus"]
 
-LAST_SYNC_AT = Time.now - 10*60*23
+LAST_SYNC_AT = Time.now.getlocal("+05:30") - 10*60*6
 
 SENSOR_CONFIG = {
     url: "https://api.datonis.io",
@@ -54,6 +34,7 @@ SENSOR_CONFIG = {
   }
 
 ACCESS_KEYS = {
-  padmaj: "537t8aca797b5a4dfetcb812a6bb32dd48a337t3",
-  ace: "fd5d79b4e919ad44d33cb46f9f615e736516f26d"
+  'padmaj'=> "537t8aca797b5a4dfetcb812a6bb32dd48a337t3",
+  'ace'=> "fd5d79b4e919ad44d33cb46f9f615e736516f26d",
+  'ambiance-woods'=> "6458ee6a47fbb4c7e37e258t9b8aafa1t6f44d47"
 }

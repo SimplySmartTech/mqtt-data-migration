@@ -4,7 +4,7 @@ module DatonisHelper
   require_relative './gems/datonis_client-4.2.9/ruby/lib/datonis/api.rb'
   def connect(subdomain)
     @datonis =  Datonis::KeyBasedApi.new(
-                  ACCESS_KEYS[subdomain.to_sym],
+                  ACCESS_KEYS[subdomain],
                   SENSOR_CONFIG[:api_version],
                   SENSOR_CONFIG[:url]
                 )
